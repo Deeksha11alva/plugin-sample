@@ -1,0 +1,27 @@
+{
+  "name": "plugin-sample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/styles": "^5.0.0-alpha.36",
+    "bootstrap": "^5.0.2",
+    "flex-plugin-scripts": "4.0.1",
+    "font-awesome": "^4.7.0",
+    "react": "16.5.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "16.5.2",
+    "react-iframe": "^1.8.0"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "react-test-renderer": "16.5.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0"
+  }
+}
